@@ -1,0 +1,223 @@
+
+/* Clients Section Styles */
+.clients-section {
+  padding: 5rem 1rem;
+   background-color: #70bdbd1f;
+}
+
+@media (min-width: 640px) {
+  .clients-section {
+    padding: 5rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .clients-section {
+    padding: 5rem 2rem;
+  }
+}
+
+.clients-container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.clients-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.clients-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .clients-title {
+    font-size: 3rem;
+  }
+}
+
+.clients-title-accent {
+  color: #365757;
+}
+
+.clients-subtitle {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+/* Slider Container */
+.clients-slider-container {
+  margin-bottom: 3rem;
+}
+
+.clients-swiper {
+  padding-bottom: 3rem;
+}
+
+/* Testimonial Card Styles */
+.testimonial-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Rating Stars */
+.testimonial-rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.star-icon {
+  color:  #428080;
+  font-size: 1.25rem;
+}
+
+/* Review Text */
+.testimonial-review {
+  color: #4b5563;
+  text-align: center;
+  line-height: 1.625;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+/* Client Info */
+.testimonial-client {
+  text-align: center;
+}
+
+.client-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0 auto 0.1rem;
+  object-fit: cover;
+  border: 4px solid #f3f4f6;
+}
+
+.client-name {
+  font-weight: 600;
+  color: #111827;
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+.client-position {
+  color: #365757;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Call to Action */
+.clients-cta {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.cta-text {
+  font-size: 1.125rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #365757;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2a4444;
+}
+
+/* Swiper Pagination Styles */
+.swiper-pagination-bullet {
+  background-color: #d1d5db !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #365757 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .clients-section {
+    padding: 3rem 1rem;
+  }
+  
+  .clients-header {
+    margin-bottom: 2rem;
+  }
+  
+  .clients-title {
+    font-size: 2rem;
+  }
+  
+  .clients-subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+  
+  .testimonial-rating {
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-review {
+    margin-bottom: 1.5rem;
+  }
+  
+  .clients-cta {
+    margin-top: 2rem;
+  }
+  
+  .cta-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .clients-section {
+    padding: 2rem 0.75rem;
+  }
+  
+  .clients-title {
+    font-size: 1.75rem;
+  }
+  
+  .clients-subtitle {
+    font-size: 1rem;
+  }
+  
+  .testimonial-card {
+    padding: 1.25rem;
+  }
+  
+  .cta-button {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}

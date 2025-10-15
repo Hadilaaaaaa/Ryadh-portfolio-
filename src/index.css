@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background: var(--body-color);
+}
+
+:root {
+  --body-color: hsl(0, 0%, 98%);
+  --title-colordark: hsl(0, 0%, 20%);
+  --title-color: hsl(0, 0%, 0%);
+  --text-color: hsl(0, 1%, 25%);
+  --big-font: 3.5rem;
+  --h1: 2.25rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --normal: 1rem;
+}
+
+section {
+  padding: 6rem 0 2rem;
+}
+
+.section_title {
+  font-size: 2.7rem;
+  color: black;
+  font-weight: 600;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.section_subtitle {
+  margin-bottom: 4rem;
+  color: var(--text-color);
+}
+
+.section_title,
+.section_subtitle {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  .section_title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  .section_title {
+    font-size: 1.8rem;
+  }
+  
+  section {
+    padding: 4rem 0 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  .section_title {
+    font-size: 1.5rem;
+  }
+}
