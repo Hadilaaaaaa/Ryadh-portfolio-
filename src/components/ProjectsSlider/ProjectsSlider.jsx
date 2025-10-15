@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
-import './projectsSlider.css';  
+import './ProjectsSlider.css';  
 import c4 from '../../photo/c4.jpeg'
 import c7 from '../../photo/c7.jpeg'
 import logos from '../../photo/logos.jpeg'
