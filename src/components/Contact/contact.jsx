@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="contact-card">
               <IoMdContacts className='contact-card-icon'/>
               <h3 className="contact-card-title">Email</h3>
-              <span className="contact-card-data">ryadmcee201@gmail.com</span>
+              <span className="contact-card-data">ryadapdfo5@gmail.com</span>
               <a href="mailto:ryadmcee201@gmail.com" className="contact-button">
                 Write me <FaArrowRightLong className='contact-icon' />
               </a>
@@ -62,9 +62,9 @@ const Contact = () => {
             </div>
             <div className="contact-card">
               <RiInstagramFill className='contact-card-icon'/> 
-              <h3 className="contact-card-title">Messenger</h3>
+              <h3 className="contact-card-title">Instagram</h3>
               <span className="contact-card-data">riyadh.ouchfoun_</span>
-              <a href="https://www.facebook.com/riyadh.ouchfoun?locale=fr_FR" className="contact-button">
+              <a href="https://www.instagram.com/riyadh.ouchfoun_/" className="contact-button">
                 Write me <FaArrowRightLong className='contact-icon' />
               </a>
             </div>

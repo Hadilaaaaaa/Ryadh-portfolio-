@@ -14,7 +14,7 @@ const Footer = () => {
     { name: 'Home', href: '#Home' },
     { name: 'About', href: '#About' },
     { name: 'Portfolio', href: '#Portfolio' },
-    { name: 'Clients', href: '#Clients' },
+    { name: 'Clients', href: '#clients' },
     { name: 'Contact', href: '#Contact' }
   ]
 
@@ -144,7 +144,7 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <FiMail className="contact-icon" />
-                <span className="contact-text">riyadh.ouchfoun@email.com</span>
+                <span className="contact-text">ryadapdfo5@gmail.com</span>
               </div>
               <div className="contact-item">
                 <FiPhone className="contact-icon" />

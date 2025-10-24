@@ -2,7 +2,7 @@
 /* Clients Section Styles */
 .clients-section {
   padding: 5rem 1rem;
-   background-color: #70bdbd1f;
+   background-color: #49b1b115;
 }
 
 @media (min-width: 640px) {
@@ -80,7 +80,8 @@
 }
 
 .star-icon {
-  color:  #428080;
+  /* color:  #428080; */
+  color: #44a8a8;
   font-size: 1.25rem;
 }
 

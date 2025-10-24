@@ -4,10 +4,9 @@
   padding: 80px 20px;
   position: relative;
   overflow: hidden;
-   background-color: #70bdbd1f;
 }
 span{
-    color:#365757 ;
+    color:#44a8a8 ;
 }
 
 
@@ -35,7 +34,7 @@ span{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background:#365757;
+  background:#44a8a8;
   position: relative;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   /* border: 3px solid rgba(62, 138, 102, 0.801); */
@@ -121,7 +120,7 @@ span{
 .process h2 {
   font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 600;
-  color:#365757;
+  color:#439b9b;
   margin-bottom: 15px;
   text-transform: capitalize;
   position: relative;

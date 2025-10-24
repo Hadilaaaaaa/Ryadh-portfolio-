@@ -1,13 +1,16 @@
 
 .about span {
-  color: #365757;
+  color: #44a8a8;
 }
-
+.about{
+  background: #49b1b115;
+}
 .about_container {
   display: grid;
   grid-template-columns: 35% 60%;
   gap: 10rem;
   align-items: center;
+ 
 }
 
 .about_cards {
@@ -47,7 +50,7 @@
 }
 
 .cards-icon {
-  color: #365757;
+  color: #44a8a8;
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }

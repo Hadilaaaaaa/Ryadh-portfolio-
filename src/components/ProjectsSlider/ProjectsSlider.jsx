@@ -48,7 +48,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "graphic designer",
+    title: "graphic design",
     category: "Social Media",
     description: "Engaging social media visual campaign with consistent brand messaging across platforms.",
     image: rysala,
